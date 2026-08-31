@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "438892771487",
+    "project_id": "quraflip",
+    "storage_bucket": "quraflip.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438892771487:android:aa3e66a08c8bd7a6010aaa",
+        "android_client_info": {
+          "package_name": "com.quraflip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaLrcrLMTq-7c8B_4_dKHy6pi8VUb2FME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

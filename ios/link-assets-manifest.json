@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Exo2-VariableFont_wght.ttf",
+      "sha1": "d82e5c7acb5781993f05a84f2d188c2e9b4dc35c"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-Bold.ttf",
+      "sha1": "d88958723cac435cb3a0c41d78a13c2d61c3c3b4"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-ExtraBold.ttf",
+      "sha1": "0b371d1dbfbdd15db880bbd129b239530c71accb"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-Light.ttf",
+      "sha1": "293e11dae7e8b930bf5eea0b06ca979531f22189"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-Medium.ttf",
+      "sha1": "c281f8454dd193c2260e43ae2de171c5dd4086e4"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-Regular.ttf",
+      "sha1": "5e0183b29b57c54595c62ac6bc223b21f1434226"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-SemiBold.ttf",
+      "sha1": "64b8fe156fafce221a0f66504255257053fc6062"
+    }
+  ]
+}
