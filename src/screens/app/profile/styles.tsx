@@ -21,10 +21,10 @@ const styles = StyleSheet.create({
   hero: {
     alignItems: "center",
     paddingTop: hp(2),
-    paddingBottom: hp(4),
+    paddingBottom: hp(10),
     borderBottomLeftRadius: 36,
     borderBottomRightRadius: 36,
-    marginBottom: -hp(4.5),
+    marginBottom: -hp(7),
   },
   title: {
     alignSelf: "flex-start",
