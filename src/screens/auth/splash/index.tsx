@@ -1,56 +1,27 @@
-import React, { useRef, useState } from "react";
-import { Image, Text, View } from "react-native";
-import styles from "./styles";
-import LottieView from "lottie-react-native";
-import Video from "react-native-video";
+import React from "react";
+import { Image, StatusBar } from "react-native";
 import { LinearGradient } from "react-native-linear-gradient";
 import { Colors } from "../../../assets/constants/colors";
+import styles from "./styles";
 
-
-const Splash=()=>{
-
-
-    return(
-        // <View style={styles.container} >
+const Splash = () => {
+    return (
         <LinearGradient
-      colors={[Colors.primary_purple, Colors.primary_blue]}
-      start={{ x: 0, y: 0 }} // Top-left
-      end={{ x: 1, y: 1 }}   // Bottom-right
-      style={styles.container}
-    >
-
-            {/* <LottieView
-            source={require('../../../assets/splash-logo.json')}
-            autoPlay
-            loop={false}
-            style={{height:300,width:300,
-                }}
-            renderMode="HARDWARE"
-            /> */}
-            {/* <Video
-            source={require("../../../assets/splash-logo.mp4")}
-        style={{ width: 300, height: 300, 
-            // opacity: shouldPlay ? 1 : 0 
-
-        }}
-        resizeMode="contain"
-        repeat={false}
-        // paused={!shouldPlay}
-        muted={true} // Set to true to avoid system audio focus issues on startup
-            /> */}
+            colors={[Colors.primary_purple, Colors.primary_blue]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.container}
+        >
+            {/* Overrides the app-wide dark-content bar while this colorful gradient is showing;
+                reverts automatically once Splash unmounts. */}
+            <StatusBar barStyle="light-content" />
 
             <Image
-            source={require("../../../assets/icons/logo.png")}
-            style={styles.logo}
+                source={require("../../../assets/icons/logo.png")}
+                style={styles.logo}
             />
-</LinearGradient>
-        /* </View> */
-    )
-}
-
-
+        </LinearGradient>
+    );
+};
 
 export default Splash;
-
-
-

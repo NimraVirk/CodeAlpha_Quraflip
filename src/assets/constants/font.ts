@@ -1,20 +1,15 @@
-
-const AppFonts={
-    heading_light:"Exo2-Light",
-    heading_regular:"Exo2-Regular",
-    heading_medium:"Exo2-Medium",
-    heading_semiBold:"Exo2-SemiBold",
-    heading_bold:"Exo2-Bold",
-    heading_extraBold:"Exo2-ExtraBold",
-
-    body_light:"WorkSans-Light",
-    body_regular:"WorkSans-Regular",
-    body_medium:"WorkSans-Medium",
-    body_semiBold:"WorkSans-SemiBold",
-    body_bold:"WorkSans-Bold",
-    body_extraBold:"WorkSans-ExtraBold",
+// The app uses a single type family (WorkSans) for both headings and body text —
+// the Exo2 weights previously used for headings were never registered as separate
+// static files on either platform (only one variable-weight Exo2 file was linked),
+// so they silently fell back to the system font. WorkSans is fully linked in all
+// six weights below and renders correctly everywhere.
+const AppFonts = {
+    body_light: "WorkSans-Light",
+    body_regular: "WorkSans-Regular",
+    body_medium: "WorkSans-Medium",
+    body_semiBold: "WorkSans-SemiBold",
+    body_bold: "WorkSans-Bold",
+    body_extraBold: "WorkSans-ExtraBold",
 };
 
-
-// const AppFonts=Fonts;
 export default AppFonts;
